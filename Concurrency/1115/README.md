@@ -1,5 +1,7 @@
 # Problem number
 1115. Print FooBar Alternately
+https://leetcode.com/problems/print-foobar-alternately/
+
 
 ## Task description
 Suppose you are given the following code:
