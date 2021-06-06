@@ -1,13 +1,17 @@
-from math import factorial
 class Solution(object):
     def climbStairs(self, n):
         """
         :type n: int
         :rtype: int
         """
-        count = 0
-        for i in range(n//2+1):
-            j = n - 2 * i
-            count += factorial(i + j) / factorial(i) / factorial(j)
+        if n < 4:
+            return n
+        
+        one_prev = 3
+        two_prev = 2
 
-        return count
+        for i in range(3, n):
+            now = one_prev + two_prev
+            two_prev = one_prev
+            one_prev = now
+        return now
