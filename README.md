@@ -1,5 +1,5 @@
 # Leet_Code
-    This repo is code sore house for Leet Code.
+    This repo is code store house for Leet Code.
 
 ## Directory structure
     LeetCode - A_kinf_of_problems - Problem_number - Code_file
