@@ -1,5 +1,0 @@
-# Problem number
-
-
-## Task description
-
